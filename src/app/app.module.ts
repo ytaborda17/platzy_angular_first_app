@@ -11,7 +11,7 @@ import { PlayerService } from './player/shared/player.service';
 import { TeamService } from './team/shared/team.service';
 import { TeamTableComponent } from './team/table/team-table.component';
 import { PlayerTableComponent } from './player/table/player-table.component';
-import { PlayerDialogComponent } from './player/dialog/player-dialog/player-dialog.component';
+import { PlayerDialogComponent } from './player/dialog/player-dialog.component';
 
 
 @NgModule({

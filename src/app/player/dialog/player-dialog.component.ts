@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
-import { Countries, SquadNumber, Player } from '../../shared/player.interface';
-import { PlayerService } from '../../shared/player.service';
+import { Countries, SquadNumber, Player } from '../shared/player.interface';
+import { PlayerService } from '../shared/player.service';
 import { TeamService } from 'src/app/team/shared/team.service';
 import { take } from 'rxjs/operators';
 import { NgForm } from '@angular/forms';
